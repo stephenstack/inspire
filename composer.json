@@ -1,18 +1,26 @@
 {
-    "name": "rconfig/inspire",
-    "description": "Inspirations",
-    "autoload": {
-        "psr-4": {
-            "Rconfig\\Inspire\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Stephen",
-            "email": "Stephen@rconfig.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
+  "name": "rconfig/inspire",
+  "description": "Inspirations",
+  "autoload": {
+    "psr-4": {
+      "Rconfig\\Inspire\\": "src/",
+      "Rconfig\\Inspire\\Tests\\": "tests"
     }
+  },
+  "authors": [
+    {
+      "name": "Stephen",
+      "email": "Stephen@rconfig.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rconfig\\Inspire\\Providers\\InspirationProvider"
+      ]
+    }
+  }
 }
