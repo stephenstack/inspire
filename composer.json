@@ -1,0 +1,18 @@
+{
+    "name": "rconfig/inspire",
+    "description": "Inspirations",
+    "autoload": {
+        "psr-4": {
+            "Rconfig\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen",
+            "email": "Stephen@rconfig.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
